@@ -63,7 +63,7 @@ my %arg = (
               mailpass         => 'example',
               mailport         => 465,
 ## Are we parsing Postgres logs?
-              pgmode           => 1,
+              pgmode           => 0,
 ## What type of Postgres log we are parsing. Can be log, csv, or syslog
               pglog            => 'pg',
 ## What is Postgres's log_line_prefix
